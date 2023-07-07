@@ -1,4 +1,25 @@
 1. branching
 
 We use this when we want to make changes, but never permanently add those changes.
-Asshole
+
+2. basics
+
+to see what branch I am in, type
+	git branch
+
+to make a new branch, type
+	git branch <newbranchname>
+or
+	git switch -c <newbranchname>
+
+
+3. using branching
+you can commit to your new branch. 
+when you do so, it only changes the branch repo, not the original (main) one.
+
+in order to change the main one, you need to merge.
+
+4. merging.
+to merge, come back to the branch you want to merge it with (main), and type
+	git merge -m "<mergemessage>" <mergebranchname>
+if there is a conflict, resolve it and do it again.
