@@ -41,4 +41,21 @@ there are three different environments in git
 
 you can add and commit at the same time using 
 	git commit -a -m "<message>"
-7.
+
+7.review commits
+type in
+	git log
+	git log --oneline (abbrevieated version)
+
+8. Amend commit messages
+type in
+	git commit -m "<message>" --amend
+9. view changes of commits
+type in
+	git log -p
+
+10. getting help 
+type in 
+	git help <help kind>
+<help kind> includes
+	log, commit, config ...
