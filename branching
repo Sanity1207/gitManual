@@ -23,3 +23,5 @@ in order to change the main one, you need to merge.
 to merge, come back to the branch you want to merge it with (main), and type
 	git merge -m "<mergemessage>" <mergebranchname>
 if there is a conflict, resolve it and do it again.
+5. coming soon
+	using github is coming soon.
