@@ -1,0 +1,15 @@
+1. how to use github
+
+set a github repository.
+
+add the link to the remote repository as the keyword 'origin' by typing
+	git remote add origin <repositoryURL>
+
+set the target branch to main
+	git branch -M main
+
+push the contents from the local repo to the cloud
+	git push -u origin main
+
+you can see that the origin is the cloud, and main is the local repo.
+so the command would be like git push -u <cloud> <local>
