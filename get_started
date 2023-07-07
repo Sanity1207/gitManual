@@ -59,3 +59,11 @@ type in
 	git help <help kind>
 <help kind> includes
 	log, commit, config ...
+
+11. how to roll back to a certain commit
+type in 
+git reset <commit code>
+
+12. rebasing
+this is squashing or changing the order of commits...
+(changing the order of written history book)
