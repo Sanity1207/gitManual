@@ -17,6 +17,10 @@ to receive help in configurating git, type
 adding files to git means 'having git track the file'
 	git add . 
 (. means all files)
+you can also 'untrack' files after you add them using
+	git rm --cached <filename>
+you can remove files from staging area.
+	
 
 
 4. gitignore
@@ -30,3 +34,11 @@ ex)
 5. commit
 committing files to git means 'making an entry in the history book',
 'saving the snapshot of the CURRENT repository'
+
+there are three different environments in git
+	working files : you actually make changes to files here
+	staging : you stage the current snapshot of the change, and they are ready to commit.
+
+you can add and commit at the same time using 
+	git commit -a -m "<message>"
+7.
