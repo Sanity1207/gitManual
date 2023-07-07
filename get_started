@@ -1,0 +1,32 @@
+1. What is git?
+File version tracking system.
+used to track files in a specific repository. (plus the changes and the information about the changes made to them)
+
+2. Get started
+install git (brew install git)
+and sign in to git (set your username and email)
+	git config --global user.name ""
+	git config --global user.email ""
+to check your email and username, type in
+	git config --list
+
+to receive help in configurating git, type
+	git help config
+
+3. Adding files to git
+adding files to git means 'having git track the file'
+	git add . 
+(. means all files)
+
+
+4. gitignore
+ignores files (does not add them to git)
+create file named 'gitignore' and type in things to ignore
+ex)
+	#ignore .txt
+	*.txt
+(same as linux language)
+
+5. commit
+committing files to git means 'making an entry in the history book',
+'saving the snapshot of the CURRENT repository'
