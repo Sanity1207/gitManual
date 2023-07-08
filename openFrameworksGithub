@@ -1,0 +1,43 @@
+How to use Openframeworks in github
+
+
+1. git init
+	inside the project root folder (myapps/<projectname>) type git init
+
+2. gitignore
+	must ignore files like compiled binaries, pdfs generated from source file, vidoe files or 	image sequences created from our program...
+//copy and paste the following in the command line.
+
+pr -tW84 -s"|" -i" "1 -3 .gitignore
+###########################|                   |.externalToolBuilders
+# ignore generated binaries|# XCode            |
+# but not the data folder  |*.pbxuser          |##################
+###########################|*.perspective      |# operating system
+                           |*.perspectivev3    |##################
+/bin/*                     |*.mode1v3          |
+!/bin/data/                |*.mode2v3          |# Linux
+                           |# XCode 4          |*~
+#########                  |xcuserdata         |# KDE
+# general                  |*.xcworkspace      |.directory
+#########                  |                   |.AppleDouble
+                           |# Code::Blocks     |
+[Bb]uild/                  |*.depend           |# OSX
+[Oo]bj/                    |*.layout           |.DS_Store
+*.o                        |                   |*.swp
+[Dd]ebug*/                 |# Visual Studio    |*~.nib
+[Rr]elease*/               |*.sdf              |# Thumbnails
+*.mode*                    |*.opensdf          |._*
+*.app/                     |*.suo              |
+*.pyc                      |*.pdb              |# Windows
+.svn/                      |*.ilk              |# Image file caches
+*.log                      |*.aps              |Thumbs.db
+                           |ipch/              |# Folder config file
+########################   |                   |Desktop.ini
+# IDE files which should   |# Eclipse          |
+# be ignored               |.metadata          |# Android
+########################   |local.properties   |.csettings
+
+3. gitkeep
+
+I think this is an automatic procedure. because github only tracks files not directories, github
+cannot track empty directories. So I create an empty file in an empty directory in order for git to save that directory.
